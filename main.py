@@ -17,42 +17,33 @@ def main():
     while True:
         mostrar_menu()
         try:
-            opcion = int(input("👉 Seleccione una opción (1-7): "))
+            opcion = int(input("Seleccione una opción (1-7): "))
         except ValueError:
-            print("⚠️ Error: Por favor, ingrese un número válido del 1 al 7.")
+            print("Error: Por favor, ingrese un número válido del 1 al 7.")
             continue
 
         if opcion == 1:
-            titulo = input("Ingrese el título del libro: ")
-            autor = input("Ingrese el autor del libro: ")
-            print(logica.registrar_libro(titulo, autor))
+            logica.registrar_libro()
         
         elif opcion == 2:
-            print(logica.listar_libros())
+            logica.listar_libros()
         
         elif opcion == 3:
-            titulo = input("Ingrese el título (o parte de él) a buscar: ")
-            print(logica.buscar_libro(titulo))
+            logica.buscar_libro(titulo)
         
         elif opcion == 4:
-            titulo = input("Ingrese el título del libro a modificar: ")
-            print("Estados válidos: 'Disponible' o 'Prestado'")
-            nuevo_estado = input("Ingrese el nuevo estado: ").strip().capitalize()
-            if nuevo_estado in ["Disponible", "Prestado"]:
-                print(logica.modificar_estado_libro(titulo, nuevo_estado))
-            else:
-                print("❌ Error: Estado no válido. Use 'Disponible' o 'Prestado'.")
+            logica.modificar_estado_libro(5)
         
         elif opcion == 5:
             titulo = input("Ingrese el título del libro a eliminar: ")
             confirmacion = input("¿Está seguro? (s/n): ").lower()
             if confirmacion == 's':
-                print(logica.eliminar_libro(titulo))
+                logica.eliminar_libro()
             else:
                 print("Operación cancelada.")
         
         elif opcion == 6:
-            print(logica.reporte_libros_prestados())
+            logica.reporte_libros_prestados()
         
         elif opcion == 7:
             print("👋 ¡Gracias por usar el sistema de biblioteca. Hasta luego!")

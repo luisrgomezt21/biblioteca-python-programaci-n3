@@ -1,10 +1,10 @@
 # 📚 Sistema de Gestión de Biblioteca - LP3 2026-II
 
 ## Integrantes del Grupo
-- [Nombre Completo 1] (GitHub: @usuario1)
-- [Nombre Completo 2] (GitHub: @usuario2)
-- [Nombre Completo 3] (GitHub: @usuario3)
-- [Nombre Completo 4] (GitHub: @usuario4)
+- [Jorge Morales] (GitHub: @jorgedavidmorales1701-cmyk)
+- [Luis Gómez] (GitHub: @luisrgomezt21)
+- [Anthony Castillo] (GitHub: @ )
+- [Cristian Cerezo] (GitHub: @ )
 
 ## Descripción del Proyecto
 Sistema de gestión por consola desarrollado en Python para administrar el inventario de una biblioteca. Permite registrar, listar, buscar, modificar y eliminar libros, además de generar un reporte de libros prestados.

@@ -4,7 +4,7 @@
 - [Jorge Morales] (GitHub: @jorgedavidmorales1701-cmyk)
 - [Luis Gómez] (GitHub: @luisrgomezt21)
 - [Anthony Castillo] (GitHub: @ )
-- [Cristian Cerezo] (GitHub: @ )
+- [Cristian Cerezo] (GitHub: @cristhiancerezo044-ux )
 
 ## Descripción del Proyecto
 Sistema de gestión por consola desarrollado en Python para administrar el inventario de una biblioteca. Permite registrar, listar, buscar, modificar y eliminar libros, además de generar un reporte de libros prestados.

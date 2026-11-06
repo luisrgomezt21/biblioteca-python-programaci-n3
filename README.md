@@ -3,7 +3,7 @@
 ## Integrantes del Grupo
 - [Jorge Morales] (GitHub: @jorgedavidmorales1701-cmyk)
 - [Luis Gómez] (GitHub: @luisrgomezt21)
-- [Anthony Castillo] ( Anthony31466709@gmail.com )
+- [Anthony Castillo] (GitHub: @Anthony709C )
 - [Cristian Cerezo] (GitHub: @cristhiancerezo044-ux )
 
 ## Descripción del Proyecto
